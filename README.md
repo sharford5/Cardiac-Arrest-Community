@@ -27,22 +27,20 @@
 
 <!-- Introduction -->
 ## Out of Hospital Cardiac Arrest (OHCA) Survival Modeling with Community Information
-This is a long statement about the motivation of the project.
-Mention of the publication
+
+Welcome to the repository for our deep learning model focused on predicting outcomes for out-of-hospital cardiac arrest cases. This project leverages cutting-edge techniques in deep learning to contribute to the field of emergency medicine and improve patient care.
+
+
+### Overview
+Out-of-hospital cardiac arrest is a critical medical emergency that requires swift and accurate interventions. This repository hosts a deep learning model designed to predict the likelihood of successful resuscitation and patient survival based on a variety of input features. By harnessing the power of data-driven predictions, we aim to assist medical professionals in making informed decisions during high-stress situations.
 
 This work contributes:
-* Item 1
-* Item 2
-* Item 3
+* Evaluation of community level information on the predictability of OHCA survival
+* Community socioeconomic information including crime, healthcare, and economic factors from public data were merged with CARES
+* Baseline results using CARES data achieved an AUROC of 84% use improved to 88% using community information
+
 
 <!-- 
-Include an Image of the motivation
- -->
-
-
-
-
-<!-- GETTING STARTED -->
 ## Model Training
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -57,7 +55,7 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ### Evaluation
-
+ -->
 
 ### Citation
 ```
