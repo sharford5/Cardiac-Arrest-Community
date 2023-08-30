@@ -119,9 +119,9 @@ if __name__ == '__main__':
 
     num_non_cat = np.load(FIXED_PARAMETERS['data_path']+'/'+FIXED_PARAMETERS['dataset']+'/noncat_cols.npy')[0]
 
-    new_cols = [12, 6, 5, 7, 0, 15, 11, 8, 13, 14, 10]
+    new_cols = [313, 231, 25, 15, 407, 120, 460, 319, 88, 129]
 
-    train_model(lstm_fcn_efcn, FIXED_PARAMETERS, new_cols)
+    #train_model(lstm_fcn_efcn, FIXED_PARAMETERS, new_cols)
 
     v, _ = eval_val_model(lstm_fcn_efcn, FIXED_PARAMETERS, new_cols)
     t, _ = eval_test_model(lstm_fcn_efcn, FIXED_PARAMETERS, new_cols)

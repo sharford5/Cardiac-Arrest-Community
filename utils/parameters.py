@@ -27,7 +27,7 @@ def load_parameters():
         "year_end": args.year_end,
         "dataset": args.dataset,
         "train_bool": args.train_bool,
-        "NAME": 'temp',# 'weights_'+args.year_start+"_"+args.year_end+"_"+args.dataset+"_"+args.version,
+        "NAME": 'grid_best',# 'weights_'+args.year_start+"_"+args.year_end+"_"+args.dataset+"_"+args.version,
         "version": args.version,
         "epochs": args.epochs,
         "batchsize": args.batchsize,
