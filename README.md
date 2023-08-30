@@ -60,4 +60,14 @@ This is an example of how to list things you need to use the software and how to
 
 
 ### Citation
-
+```
+@article{harford2022utilizing,
+  title={Utilizing community level factors to improve prediction of out of hospital cardiac arrest outcome using machine learning},
+  author={Harford, Sam and Darabi, Houshang and Heinert, Sara and Weber, Joseph and Campbell, Teri and Kotini-Shah, Pavitra and Markul, Eddie and Tataris, Katie and Hoek, Terry Vanden and Del Rios, Marina},
+  journal={Resuscitation},
+  volume={178},
+  pages={78--84},
+  year={2022},
+  publisher={Elsevier}
+}
+```
